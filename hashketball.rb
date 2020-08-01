@@ -128,7 +128,7 @@ def game_hash
 end
 
 def num_points_scored(player_name)
-  result == ""
+  result = ""
   game_hash.each do |team, team_hash|
     binding.pry
     team_hash[:players].each do |player|
